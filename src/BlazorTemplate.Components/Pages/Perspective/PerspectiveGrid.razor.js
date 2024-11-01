@@ -1,4 +1,4 @@
-import perspective from "https://cdn.jsdelivr.net/npm/@finos/perspective/dist/cdn/perspective.js";
+import perspective from "https://cdn.jsdelivr.net/npm/@finos/perspective@2.7.1/dist/cdn/perspective.js";
 
 export async function loadJson(schema, data, view) {
   const worker = perspective.worker();
